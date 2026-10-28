@@ -1,0 +1,48 @@
+name: Daily data refresh & deploy
+
+on:
+  schedule:
+    - cron: '17 9 * * *' # every day 09:17 UTC (5:17 AM Eastern)
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Pull fresh public records (Socrata open-data portals)
+        run: node scripts/fetch-data.mjs
+        continue-on-error: true # if every source is down we keep the last committed data
+      - name: Commit refreshed data
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "parcelopoly-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public/data
+          git diff --cached --quiet || git commit -m "data: daily refresh $(date -u +%F)"
+          git push || true
+      - run: npm run build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - id: deployment
+        uses: actions/deploy-pages@v4

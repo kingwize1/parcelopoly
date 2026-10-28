@@ -1,0 +1,70 @@
+{
+ "generatedAt": "2026-10-28T18:12:37.808Z",
+ "total": 7928,
+ "sources": [
+  {
+   "key": "chicago",
+   "name": "City of Chicago — Building Permits",
+   "url": "https://data.cityofchicago.org/d/ydr8-5enu",
+   "coverage": "Chicago, IL (Cook County)",
+   "ok": true,
+   "count": 696
+  },
+  {
+   "key": "austin",
+   "name": "City of Austin — Issued Construction Permits",
+   "url": "https://data.austintexas.gov/d/3syk-w9eu",
+   "coverage": "Austin, TX (Travis County)",
+   "ok": true,
+   "count": 1175
+  },
+  {
+   "key": "nyc-permits",
+   "name": "NYC DOB NOW: Build — Approved Permits + Electrical Permit Applications",
+   "url": "https://data.cityofnewyork.us/d/rbx6-tga4",
+   "coverage": "New York City, NY (5 counties)",
+   "ok": true,
+   "count": 2668
+  },
+  {
+   "key": "nyc-filings",
+   "name": "NYC DOB NOW: Build — Job Application Filings",
+   "url": "https://data.cityofnewyork.us/d/w9ak-ipjd",
+   "coverage": "New York City, NY (5 counties)",
+   "ok": true,
+   "count": 1498
+  },
+  {
+   "key": "nyc-zap",
+   "name": "NYC Planning — Zoning Application Portal (ZAP) Project Data",
+   "url": "https://data.cityofnewyork.us/d/hgx4-8ukb",
+   "coverage": "New York City, NY (5 counties)",
+   "ok": true,
+   "count": 267
+  },
+  {
+   "key": "seattle",
+   "name": "City of Seattle — Building Permits",
+   "url": "https://data.seattle.gov/d/76t5-zqzr",
+   "coverage": "Seattle, WA (King County)",
+   "ok": true,
+   "count": 351
+  },
+  {
+   "key": "sf",
+   "name": "City & County of San Francisco — Building Permits",
+   "url": "https://data.sfgov.org/d/i98e-djp9",
+   "coverage": "San Francisco, CA",
+   "ok": true,
+   "count": 271
+  },
+  {
+   "key": "la",
+   "name": "City of Los Angeles — Building Permits Submitted (LADBS)",
+   "url": "https://data.lacity.org/d/gwh9-jnip",
+   "coverage": "Los Angeles, CA (LA County)",
+   "ok": true,
+   "count": 1198
+  }
+ ]
+}
