@@ -24,7 +24,8 @@ Pre-construction intelligence from public records. Parcelopoly reads permits, pl
 Caveats: public records rarely include emails (add the recipient's email in the composer); "electrician missing" means none was found on the same record/project — confirm before calling; timing windows are stage-based estimates.
 
 ## Daily refresh
-`.github/workflows/daily.yml` runs every day, refreshes the JSON, commits it, builds and deploys to GitHub Pages.
+`ci/daily.yml.pending` is the daily GitHub Actions workflow (cron 09:17 UTC: refresh JSON → commit → build → deploy Pages). It is staged outside `.github/` because the CLI token lacked the `workflow` scope; once `gh auth refresh -s workflow` is done, run `git mv ci/daily.yml.pending .github/workflows/daily.yml`, set Pages source to *GitHub Actions*, and push.
+Until then, `scripts/deploy-pages.sh` (run `npm run fetch` first) publishes to the `gh-pages` branch, which Pages currently serves.
 
 ## Develop
 ```
