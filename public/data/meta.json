@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-01T16:04:44.319Z",
- "total": 7908,
+ "generatedAt": "2026-11-02T19:31:22.840Z",
+ "total": 7790,
  "sources": [
   {
    "key": "chicago",
@@ -8,7 +8,7 @@
    "url": "https://data.cityofchicago.org/d/ydr8-5enu",
    "coverage": "Chicago, IL (Cook County)",
    "ok": true,
-   "count": 703
+   "count": 683
   },
   {
    "key": "austin",
@@ -16,7 +16,7 @@
    "url": "https://data.austintexas.gov/d/3syk-w9eu",
    "coverage": "Austin, TX (Travis County)",
    "ok": true,
-   "count": 1179
+   "count": 1140
   },
   {
    "key": "nyc-permits",
@@ -24,7 +24,7 @@
    "url": "https://data.cityofnewyork.us/d/rbx6-tga4",
    "coverage": "New York City, NY (5 counties)",
    "ok": true,
-   "count": 2662
+   "count": 2579
   },
   {
    "key": "nyc-filings",
@@ -32,7 +32,7 @@
    "url": "https://data.cityofnewyork.us/d/w9ak-ipjd",
    "coverage": "New York City, NY (5 counties)",
    "ok": true,
-   "count": 1499
+   "count": 1503
   },
   {
    "key": "nyc-zap",
@@ -48,7 +48,7 @@
    "url": "https://data.seattle.gov/d/76t5-zqzr",
    "coverage": "Seattle, WA (King County)",
    "ok": true,
-   "count": 350
+   "count": 349
   },
   {
    "key": "sf",
@@ -64,7 +64,7 @@
    "url": "https://data.lacity.org/d/gwh9-jnip",
    "coverage": "Los Angeles, CA (LA County)",
    "ok": true,
-   "count": 1180
+   "count": 1194
   }
  ]
 }
