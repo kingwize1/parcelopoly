@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-11T17:11:38.902Z",
- "total": 7731,
+ "generatedAt": "2026-11-12T17:37:34.339Z",
+ "total": 7818,
  "sources": [
   {
    "key": "chicago",
@@ -16,7 +16,7 @@
    "url": "https://data.austintexas.gov/d/3syk-w9eu",
    "coverage": "Austin, TX (Travis County)",
    "ok": true,
-   "count": 1131
+   "count": 1145
   },
   {
    "key": "nyc-permits",
@@ -24,7 +24,7 @@
    "url": "https://data.cityofnewyork.us/d/rbx6-tga4",
    "coverage": "New York City, NY (5 counties)",
    "ok": true,
-   "count": 2587
+   "count": 2654
   },
   {
    "key": "nyc-filings",
@@ -32,17 +32,15 @@
    "url": "https://data.cityofnewyork.us/d/w9ak-ipjd",
    "coverage": "New York City, NY (5 counties)",
    "ok": true,
-   "count": 1467
+   "count": 1478
   },
   {
    "key": "nyc-zap",
    "name": "NYC Planning — Zoning Application Portal (ZAP) Project Data",
    "url": "https://data.cityofnewyork.us/d/hgx4-8ukb",
    "coverage": "New York City, NY (5 counties)",
-   "ok": false,
-   "count": 248,
-   "error": "503 {\"message\":\"Service unavailable\",\"errorCode\":\"service-unavailable\",\"data\":{}}",
-   "note": "fetch failed; kept previous run data"
+   "ok": true,
+   "count": 248
   },
   {
    "key": "seattle",
@@ -50,7 +48,7 @@
    "url": "https://data.seattle.gov/d/76t5-zqzr",
    "coverage": "Seattle, WA (King County)",
    "ok": true,
-   "count": 335
+   "count": 340
   },
   {
    "key": "sf",
@@ -66,7 +64,7 @@
    "url": "https://data.lacity.org/d/gwh9-jnip",
    "coverage": "Los Angeles, CA (LA County)",
    "ok": true,
-   "count": 1195
+   "count": 1190
   }
  ]
 }
