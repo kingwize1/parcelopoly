@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-23T21:28:59.130Z",
- "total": 7514,
+ "generatedAt": "2026-11-24T20:12:14.711Z",
+ "total": 7535,
  "sources": [
   {
    "key": "chicago",
@@ -8,7 +8,7 @@
    "url": "https://data.cityofchicago.org/d/ydr8-5enu",
    "coverage": "Chicago, IL (Cook County)",
    "ok": true,
-   "count": 689
+   "count": 690
   },
   {
    "key": "austin",
@@ -16,7 +16,7 @@
    "url": "https://data.austintexas.gov/d/3syk-w9eu",
    "coverage": "Austin, TX (Travis County)",
    "ok": true,
-   "count": 1021
+   "count": 1007
   },
   {
    "key": "nyc-permits",
@@ -24,7 +24,7 @@
    "url": "https://data.cityofnewyork.us/d/rbx6-tga4",
    "coverage": "New York City, NY (5 counties)",
    "ok": true,
-   "count": 2459
+   "count": 2494
   },
   {
    "key": "nyc-filings",
@@ -48,7 +48,7 @@
    "url": "https://data.seattle.gov/d/76t5-zqzr",
    "coverage": "Seattle, WA (King County)",
    "ok": true,
-   "count": 337
+   "count": 335
   },
   {
    "key": "sf",
